@@ -375,7 +375,8 @@ header nav .form i {
 	justify-content: center;
 }
 .portfolio ul li {
-	padding: 10px
+	padding: 10px;
+	cursor: pointer;
 }
 .portfolio ul .active {
 	background-color: var(--main-color);
