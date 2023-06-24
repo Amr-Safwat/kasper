@@ -186,7 +186,7 @@ header nav .form i {
 .landing {
 	min-height: 100vh;
 	background-color: #1f2021;
-	background-image: url('../images/landing.jpg');
+	/* background-image: url('../images/landing.jpg'); */
 	background-size: cover;
 	position: relative;
 }
@@ -244,9 +244,11 @@ header nav .form i {
 }
 .landing .left {
 	left: 30px;
+	cursor: pointer;
 }
 .landing .right {
 	right: 30px;
+	cursor: pointer;
 }
 .landing .bullets {
 	position: absolute;
