@@ -37,6 +37,7 @@ function check() {
 	});
 	bullets[currItem - 1].classList.add('active');
 }
+// Change background for landing
 
 let icon = document.querySelector('.toggle-menu');
 let ul = document.querySelector('nav ul');

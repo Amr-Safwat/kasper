@@ -1,7 +1,8 @@
 /* Variables */
 :root {
-	--main-color: #19c8fa;
-	--transparent-color: rgb(15 116 143 / 70%);
+	/* --main-color: #19c8fa; */
+	--main-color: #4caf50;
+	--transparent-color: rgb(76 175 80 / 50%);
 	--section-padding: 100px;
 }
 /* Variables */
@@ -110,8 +111,14 @@ header .container::after {
 	bottom: 0;
 	width: calc(100% - 30px);
 }
-header .logo img {
-	height: 40px;
+header .logo {
+	/* height: 40px; */
+	text-decoration: none;
+	color: var(--main-color);
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	letter-spacing: 1.8px;
 }
 header nav {
 	flex: 1;
@@ -186,7 +193,7 @@ header nav .form i {
 .landing {
 	min-height: 100vh;
 	background-color: #1f2021;
-	/* background-image: url('../images/landing.jpg'); */
+	background-image: url('../images/landing2.jpg');
 	background-size: cover;
 	position: relative;
 }
@@ -209,6 +216,7 @@ header nav .form i {
 	color: white;
 	display: flex;
 	justify-content: flex-end;
+  border-radius: 0 20px 20px 0;
 }
 .landing .text .content {
 	max-width: 500px;
@@ -331,6 +339,7 @@ header nav .form i {
 	position: relative;
 	z-index: 2;
 	flex: 1;
+	border-radius: 20px 0 0 20px;
 }
 .design .image {
 	text-align: center;
@@ -378,6 +387,7 @@ header nav .form i {
 }
 .portfolio ul li {
 	padding: 10px;
+	border-radius: 6px;
 	cursor: pointer;
 }
 .portfolio ul .active {
@@ -438,11 +448,13 @@ header nav .form i {
 	text-transform: uppercase;
 	width: fit-content;
 	padding: 15px 20px;
+	border-radius: 10px;
 }
 /* Portfolio */
 /* Video */
 .video {
 	position: relative;
+	height: 500px;
 }
 .video::before {
 	content: '';
@@ -481,6 +493,7 @@ header nav .form i {
 	border: none;
 	text-transform: uppercase;
 	cursor: pointer;
+	border-radius: 10px;
 }
 /* Video */
 /* About */
@@ -648,6 +661,7 @@ header nav .form i {
 .our-skills .skills .prog-holder .prog {
 	background-color: #dedadc;
 	height: 30px;
+	border-radius: 10px;
 }
 .our-skills .skills .prog-holder .prog span {
 	background-color: var(--main-color);
@@ -789,6 +803,7 @@ header nav .form i {
 	margin: 30px auto;
 	color: black;
 	transition: .3s;
+	border-radius: 10px;
 }
 .pricing .plans .foot a:hover {
 	background-color: var(--transparent-color);
@@ -807,6 +822,7 @@ header nav .form i {
 	color: white;
 	padding: 15px 30px;
 	transition: .3s;
+	border-radius: 10px;
 }
 .pricing .contact-link:hover {
 	opacity: .8;
@@ -910,6 +926,7 @@ header nav .form i {
 	margin-bottom: 30px;
 	border: 1px solid #ccc;
 	width: 100%;
+	border-radius: 10px;
 }
 .contact .content form .main-input:focus{
 	outline: none;
@@ -926,6 +943,7 @@ header nav .form i {
 	border: none;
 	cursor: pointer;
 	text-transform: uppercase;
+	border-radius: 10px;
 }
 .contact .content .info {
 	flex-basis: 25%;
