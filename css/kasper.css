@@ -208,7 +208,7 @@ header nav .form i {
 .landing .text {
 	position: absolute;
 	top: 50%;
-	left: 0;
+	left: -50%;
 	transform: translateY(-50%);
 	width: 50%;
 	padding: 50px;
@@ -217,6 +217,7 @@ header nav .form i {
 	display: flex;
 	justify-content: flex-end;
   border-radius: 0 20px 20px 0;
+	transition: 1.5s;
 }
 .landing .text .content {
 	max-width: 500px;
@@ -350,6 +351,8 @@ header nav .form i {
 	color: white;
 	padding: 50px;
 	background-color: var(--transparent-color);
+    right: -56%;
+		transition: 1.5s;
 }
 @media (max-width: 768px){
 	.design .text {
@@ -573,6 +576,7 @@ header nav .form i {
 	font-size: 50px;
 	font-weight: bold;
 	margin: 0 0 10px;
+	transition: 5s;
 }
 .stats .container .box p {
 	font-size: 14px
@@ -661,13 +665,15 @@ header nav .form i {
 .our-skills .skills .prog-holder .prog {
 	background-color: #dedadc;
 	height: 30px;
-	border-radius: 10px;
+	border-radius: 5px;
 }
 .our-skills .skills .prog-holder .prog span {
 	background-color: var(--main-color);
 	height: 100%;
+	width: 0;
 	display: block;
 	position: relative;
+	transition: 1.5s;
 }
 .our-skills .skills .prog-holder .prog span::before {
 	content: attr(data-prograss);
